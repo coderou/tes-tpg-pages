@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import TestInfinityTreeRender from "../views/TestInfinityTreeRender.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -7,6 +8,12 @@ const routes: Array<RouteRecordRaw> = [
     name: "home",
     component: HomeView,
   },
+  {
+    path: "/testInfinityTreeRender",
+    name: "testInfinityTreeRender", // 描述: 22-8-7一个测试无限循环树渲染的组件,同时尝鲜vue3语法
+    component: TestInfinityTreeRender,
+  },
+
   {
     path: "/about",
     name: "about",
