@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import TestInfinityTreeRender from "../views/TestInfinityTreeRender.vue";
+import TestInfinityTreeRender from "../views/1.树形组件问题/TestInfinityTreeRender.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
